@@ -1,4 +1,4 @@
-module github.com/max-messenger/max-bot-api-client-go
+module github.com/pavmos/max-bot-api-client-go
 
 go 1.24.0
 
