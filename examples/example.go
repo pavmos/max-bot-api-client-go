@@ -7,9 +7,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	maxbot "github.com/max-messenger/max-bot-api-client-go"
-	"github.com/max-messenger/max-bot-api-client-go/configservice"
-	"github.com/max-messenger/max-bot-api-client-go/schemes"
+	maxbot "github.com/pavmos/max-bot-api-client-go"
+	"github.com/pavmos/max-bot-api-client-go/configservice"
+	"github.com/pavmos/max-bot-api-client-go/schemes"
 
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"

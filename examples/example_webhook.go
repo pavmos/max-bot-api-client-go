@@ -14,8 +14,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	maxbot "github.com/max-messenger/max-bot-api-client-go"
-	"github.com/max-messenger/max-bot-api-client-go/schemes"
+	maxbot "github.com/pavmos/max-bot-api-client-go"
+	"github.com/pavmos/max-bot-api-client-go/schemes"
 )
 
 func main() {

@@ -1,6 +1,6 @@
 package maxbot
 
-import "github.com/max-messenger/max-bot-api-client-go/schemes"
+import "github.com/pavmos/max-bot-api-client-go/schemes"
 
 // Keyboard implements a builder for the inline keyboard.
 type Keyboard struct {

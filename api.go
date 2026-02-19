@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/max-messenger/max-bot-api-client-go/configservice"
-	"github.com/max-messenger/max-bot-api-client-go/schemes"
+	"github.com/pavmos/max-bot-api-client-go/configservice"
+	"github.com/pavmos/max-bot-api-client-go/schemes"
 )
 
 // Api represents the MAX Bot API client.
