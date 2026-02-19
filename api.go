@@ -225,6 +225,15 @@ func (a *Api) bytesToProperUpdate(data []byte) (schemes.UpdateInterface, error) 
 	return update, nil
 }
 
+func (a *Api) ConvertRawAttachments(rawAttachments []json.RawMessage) ([]any, error) {
+	attachments, err := a.convertRawAttachments(rawAttachments)
+	if err != nil {
+		return nil, err
+	}
+
+	return attachments, nil
+}
+
 // processMessageAttachments processes attachments for message-type updates.
 func (a *Api) processMessageAttachments(update schemes.UpdateInterface) error {
 	switch u := update.(type) {
